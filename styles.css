@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #485769, #27303c, #e3e3e3); /* Spread gradient from top-right to bottom-left */
+  font-family: 'Arial', sans-serif;
+}
+
+#soonText {
+  font-size: 6em;
+  color: #f5f5f5; /* Light metallic text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Light shadow */
+  background: linear-gradient(45deg, #5f6b78, #cfd8dc); /* Metallic gradient */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  border: 5px solid #a8a8a8; /* Light metallic border color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding for a bit of space around the text */
+}
+
+#soonText:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
