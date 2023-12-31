@@ -20,6 +20,7 @@ body {
   border: 5px solid #a8a8a8; /* Light metallic border color */
   border-radius: 10px; /* Rounded corners */
   padding: 20px; /* Padding for a bit of space around the text */
+  text-align: center;
 }
 
 #soonText:hover {
